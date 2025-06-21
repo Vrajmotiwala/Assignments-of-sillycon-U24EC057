@@ -1,0 +1,3 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+$finish called at time : 80 ns : File "E:/vraj/digital/down_counter_synchronous/down_counter_synchronous.srcs/sim_1/new/testbench.sv" Line 18
