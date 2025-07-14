@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jul 14 20:50:17 2025
+# Process ID: 10588
+# Current directory: D:/vraj/verilog/project_7/project_7.runs/impl_1
+# Command line: vivado.exe -log lut_ram_1port.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source lut_ram_1port.tcl -notrace
+# Log file: D:/vraj/verilog/project_7/project_7.runs/impl_1/lut_ram_1port.vdi
+# Journal file: D:/vraj/verilog/project_7/project_7.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source lut_ram_1port.tcl -notrace
