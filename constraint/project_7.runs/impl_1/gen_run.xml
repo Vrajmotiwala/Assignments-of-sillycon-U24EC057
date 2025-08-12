@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1754997747">
+  <File Type="BITSTR-BMM" Name="multiplier2_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="multiplier2_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="multiplier2_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="multiplier2_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="multiplier2.tcl"/>
+  <File Type="OPT-TIMING" Name="multiplier2_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="multiplier2_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="multiplier2_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="multiplier2_reports.tcl"/>
+  <File Type="OPT-DRC" Name="multiplier2_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="multiplier2.hwdef"/>
+  <File Type="PWROPT-DCP" Name="multiplier2_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="multiplier2_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="multiplier2_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="multiplier2_placed.dcp"/>
+  <File Type="PLACE-IO" Name="multiplier2_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="multiplier2_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="multiplier2_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="multiplier2_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="multiplier2_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="multiplier2_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="multiplier2_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="multiplier2.bgn"/>
+  <File Type="PLACE-TIMING" Name="multiplier2_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="multiplier2_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="multiplier2.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="multiplier2_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="multiplier2_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="multiplier2_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="multiplier2.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="multiplier2_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="multiplier2_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="multiplier2_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="multiplier2_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="multiplier2_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="multiplier2_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="multiplier2.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="multiplier2_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="multiplier2.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="multiplier2_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="multiplier2_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="multiplier2.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="multiplier2_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="multiplier2_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="multiplier2_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="multiplier2_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="multiplier2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="multiplier2_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="multiplier2_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="multiplier2_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="multiplier2_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="multiplier2_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="multiplier2_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="multiplier2_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="multiplier2_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="multiplier2_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="multiplier2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="multiplier2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="multiplier2_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="multiplier2_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="multiplier2_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="multiplier2.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="multiplier2_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="multiplier2.rbt"/>
+  <File Type="BITSTR-NKY" Name="multiplier2.nky"/>
+  <File Type="BG-DRC" Name="multiplier2.drc"/>
+  <File Type="RDI-RDI" Name="multiplier2.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/design.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tb.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="multiplier2"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
