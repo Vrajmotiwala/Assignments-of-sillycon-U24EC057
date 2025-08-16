@@ -1,4 +1,5 @@
-module demo_slave(input clk,input rst,input T_valid,input [8:0] T_data,output reg [8:0] T_out,output reg T_ready);
+// Code your design here
+module demo_slave(input clk,input rst,input T_valid,input [7:0] T_data,output reg [7:0] T_out,output reg T_ready);
 always @(posedge clk) begin
   if (rst==0) begin
     T_out<=0;
@@ -13,7 +14,7 @@ end
 endmodule
    
 
-module demo_master(input clk,input rst,input [8:0] T_datain,input T_ready,output reg T_valid,output reg [8:0] T_data);
+module demo_master(input clk,input rst,input [7:0] T_datain,input T_ready,output reg T_valid,output reg [7:0] T_data);
   always @(posedge clk) begin
     if (rst==0) begin
       T_data<=0;
@@ -30,10 +31,10 @@ module demo_master(input clk,input rst,input [8:0] T_datain,input T_ready,output
 endmodule
 
 
-module demo_top(input clk,input rst,input [8:0] T_datain,output [8:0] T_out);
+module demo_top(input clk,input rst,input [7:0] T_datain,output [7:0] T_out);
   wire T_ready;
   wire T_valid;
-  wire [8:0] T_data;
+  wire [7:0] T_data;
   
   demo_master umaster(
     .clk(clk),
@@ -41,7 +42,7 @@ module demo_top(input clk,input rst,input [8:0] T_datain,output [8:0] T_out);
     .T_data(T_data),
     .T_datain(T_datain),
     .T_ready(T_ready),
-    .T_valid(T_valid),
+    .T_valid(T_valid)
   );
   
   demo_slave uslave(
@@ -50,6 +51,6 @@ module demo_top(input clk,input rst,input [8:0] T_datain,output [8:0] T_out);
     .T_data(T_data),
     .T_ready(T_ready),
     .T_valid(T_valid),
-    .T_out(T_out),
+    .T_out(T_out)
   );
 endmodule
